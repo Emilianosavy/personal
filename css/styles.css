@@ -1,14 +1,20 @@
 body {
     text-align: center;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
+    color: #40514E;
+    font-family: 'Merriweather',
+        serif;
 }
 
 header {
-    background-color: #90e0ef;
+    background-color: #caf0f8;
     padding-top: 30px;
     padding-bottom: 10px;
+    position: relative;
+    width: 1000;
+    height: 773.311;
 }
 
 h1,
@@ -16,7 +22,7 @@ h2,
 h3,
 header p {
     color: #00b4d8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'cursive', sans-serif;
     font-size: 2.3rem;
 }
 
@@ -30,18 +36,19 @@ hr {
     margin-right: auto;
     border-top-style: dotted;
     border-top-width: 7px;
-    border-top-color: gray;
+    border-top-color: #CFD2CF;
 }
 
 
 section {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 section h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: normal;
 }
 
 section .skill {
@@ -49,7 +56,7 @@ section .skill {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 section img {
@@ -130,7 +137,7 @@ footer p {
 }
 
 #bigheader {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'sacramento', cursive;
     font-size: 5rem;
     font-weight: 500px;
     padding-top: 50px;
@@ -152,6 +159,8 @@ footer p {
 #mountain {
     margin-left: auto;
     margin-right: auto;
+    width: 55%;
+    margin-bottom: none;
 }
 
 #dev {
